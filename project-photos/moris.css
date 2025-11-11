@@ -1,0 +1,1003 @@
+* {
+   padding: 0;
+  margin: 0;
+  box-sizing: border-box;   
+  /* outline: 1px solid red;   */
+  font-family: "poppins", sans-serif;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+/* 
+.cont{
+   max-width: 100%;
+  width: 100%; 
+}
+ */
+
+.s1 {
+  background-color: #658161;
+  padding: 25px 10px;
+}
+
+/* THE LINKS TARGETED */
+.link {
+  text-decoration: none;
+  border: 0;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 0px;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: rgb(221, 217, 217);
+}
+
+.add {
+  font-weight: 400;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  justify-content: end;
+}
+
+/* CONTAINER FOR MEDIA LINKS ICON */
+.iconl {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-right: 300px;
+}
+
+/* LINKED ICONS FOR SOCIAL MEDIA AUTH TARGETED */
+.fa-facebook-f {
+  font-size: 20px;
+}
+
+.fa-x-twitter {
+  font-size: 20px;
+}
+
+.fa-instagram {
+  font-size: 20px;
+}
+
+/* ICONS ATTACHED TO LINKS */
+
+.fa-phone {
+  font-size: 15px;
+}
+
+.fa-envelope {
+  font-size: 15px;
+  margin-right: 2px;
+}
+
+/* SECTION 2 STYLING */
+
+.s2 {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* LOGO */
+
+.logo-image {
+  width: 150px;
+  margin: 20px 0px 0px 100px;
+}
+
+/* FLEXING THE SECOND NAV AND STYLING IT */
+
+.bar2 {
+  display: flex;
+  flex-direction: row;
+  gap: 800px;
+  justify-self: center;
+}
+
+.menu {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 30px;
+}
+
+.menu1 {
+  text-decoration: none;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mborder {
+  border-bottom: 50px;
+  color: black;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.btn {
+  background-color: black;
+  font-weight: 600;
+}
+
+/* STYLE END FOR S2 */
+
+/* 
+STLING FOR S3 */
+.s3 {
+  width: 100%;
+  background-color: rgb(226, 221, 221);
+  /* width:100%; */
+
+  height: 1100px;
+  margin-bottom: 100px;
+}
+
+.wswv {
+  width: 100%;
+  height: 800px;
+}
+
+.color-layer {
+  position: absolute;
+  /* bottom:  ; */
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(80, 78, 78, 0.555);
+  /* red with 50% transparency */
+  pointer-events: none;
+  /* makes the overlay not interfere with clicks */
+}
+
+.image-overlayer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.color-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(80, 78, 78, 0.555);
+  /* red with 50% transparency */
+  pointer-events: none;
+  /* makes the overlay not interfere with clicks */
+}
+
+.wraper {
+  align-items: center;
+  justify-self: center;
+  /* background-color: aqua; */
+}
+
+.center-box {
+  /* display: inline-block; */
+  padding: 90px 0px;
+  font-size: 80px;
+  width: 800px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(248, 246, 246);
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  right: 500px;
+}
+/* END OF STYLE FOR S3 */
+
+/* STYLING FOR S4 */
+.row1 {
+  /* padding: 0px 100px 0px 100px;   */
+  /* background-color: red; */
+
+  justify-self: center;
+  border: none;
+  position: absolute;
+  top: 900px;
+  /* bottom: -400px; */
+  display: flex;
+  gap: 20px;
+  width: 70%;
+}
+
+.s4 {
+}
+
+.radius {
+  background-color: rgb(252, 246, 246);
+  border-radius: 30px;
+  display: inline-block;
+  padding: 20px 30px 20px 10px;
+}
+.radius:hover {
+  box-shadow: 4px 4px 7px 4px rgb(187, 184, 184);
+}
+
+.cb {
+}
+
+.card-body {
+  border-radius: 30px;
+}
+
+.fi {
+  font-size: 60px;
+  color: #658161;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0px 20px 0px 10px;
+}
+
+.catx {
+  font-size: 30px;
+  font-weight: 350;
+  margin-bottom: 20px;
+  /* padding: 0px 10px 0px 10px; */
+}
+
+.txt {
+  font-size: 15px;
+  /* padding: 0px 10px 20px 10px; */
+  margin-bottom: 30px;
+}
+
+/* SECTION 5 STYLE */
+
+.s5 {
+  padding: 0px 200px 0px 200px;
+}
+
+.row-2 {
+  /* padding: 0px 150px 0px 150px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.testimonial-heading {
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  padding: 0px 90px 0px 90px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.nump {
+  padding: 0px 50px 0px 50px;
+}
+
+.num {
+  font-size: 40px;
+  font-weight: 700;
+  color: #658161;
+}
+
+.text-after-num {
+  line-height: 20px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.img-s5 {
+  margin: 110px 0px 100px 300px;
+  width: 50%;
+  object-fit: contain;
+  position: relative;
+  bottom: 100px;
+  border-radius: 30px;
+}
+
+.img-container {
+  padding: 80px 50px 0px 80px;
+}
+
+.tcb {
+}
+
+.testimonies {
+  /* margin-left:10px ; */
+}
+
+/* END OF SECTION 5 */
+
+/* SECTION 6 */
+
+.s6 {
+  margin-bottom: 100px;
+}
+.main {
+}
+
+.rep-1 {
+  background-color: #658161;
+}
+
+.rep-2 {
+  background-image: url(./photos/young-woman-making-salad-kitchen7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+  /* width: 100%;  */
+  background-color: rgba(160, 156, 156, 0.555);
+}
+
+.rep-h-1 {
+  font-size: 50px;
+  /* font-weight: 200px;*/
+  color: white;
+  padding: 60px 0px 0px 0px;
+  margin-bottom: 30px;
+}
+
+.rep-p-1 {
+  font-size: 20px;
+  color: white;
+  padding: 0px 100px 0px 100px;
+  margin-bottom: 50px;
+}
+
+.rep-btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 50px 15px 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+/* SECTION 6 ENDS */
+
+/* SECTION 7 STARTS */
+
+.s7 {
+  /* display: flex;
+ flex-direction: row; */
+}
+
+.sc7 {
+}
+
+.quote-image-container {
+}
+
+.qoute-image {
+  /* object-fit: contain; */
+  height: 300px;
+  border-radius: 100%;
+}
+
+/* SECTION 8 */
+
+.nut-cards {
+  justify-content: center;
+}
+.nutrition {
+  justify-content: center;
+}
+
+.nut {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  gap: 100px;
+  margin-bottom: 80px;
+}
+
+.nut-img {
+  width: 350px;
+  border-radius: 20px;
+}
+.nut-h3 {
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 100px 50px 100px;
+
+  font-size: 50px;  
+
+
+}
+.nut-img:hover {
+  box-shadow: 7px 4px 7px 4px rgb(238, 236, 236);
+}
+
+.head {
+  justify-self: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.nut-txt {
+  justify-self: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.nut-header-padder {
+  padding: 0px 400px 0px 400px;
+  /* background-color: black; */
+  justify-self: center;
+  align-items: center;
+}
+
+/* SECTION 9 */
+
+.s-9 {
+  /* margin-bottom: 90px; */
+}
+
+.background {
+  background: linear-gradient(rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)),
+    url(./photos/top-view-dishes-with-waffles-salad44-min.jpg);
+
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Makes the image fill the screen */
+  background-position: center; /* Keeps it centered */
+  background-attachment: fixed;
+}
+
+.healthy-plan-flex-box {
+  /* width: 70%; */
+  justify-self: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.healthy-plan-head {
+  font-size: 50px;
+  color: white;
+}
+
+.healthy-plan-text {
+  font-size: 20px;
+  color: white;
+}
+
+.contact-us {
+  background-color: #658161;
+  padding: 50px 150px 70px 150px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: cente r;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.contact-us-head {
+  font-size: 19px;
+  color: white;
+  font-size: 35px;
+}
+
+.contact-us-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  /* justify-content: center; */
+
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.healthy-plan {
+  margin-top: 100px;
+}
+
+/* SECTION 10 */
+
+.s-10 {
+  background-color: rgb(233, 228, 228);
+  padding: 100px 0px 100px 0px;
+  position: relative;
+  bottom: 200px;
+  width: 100%;
+}
+
+.Exclusive-bundle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 300px;
+}
+
+.Exclusive-bundle-p {
+  font-size: 40px;
+}
+.Exclusive-bundle-btn {
+  background-color: #658161;
+
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* SECTION 11 */
+
+.s-11 {
+
+}
+
+.s-11-flex {
+  
+  justify-self: center;
+  align-items: center;
+  padding: 0px 300px 0px 300px;
+  /* outline: 1px solid black; */
+  margin-bottom: 100px;
+}
+
+.consultations-head-padder {
+
+  width: 50%;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 60px;
+}
+.s-11-header {
+  font-size: 55px;
+  justify-self: center;
+  /* justify-content: center; */
+  font-weight: 100;
+}
+.consultations-p1 {
+  
+  font-size: 19px;
+  font-weight: 800;
+  padding: 0px 30px 0px 0px;
+  margin-bottom: 20px;
+  /* margin-top: 60px; */
+}
+
+.consultations-p2 {
+ 
+  margin-bottom: 40px;
+  padding: 0px 15px 0px 0px;
+}
+
+.consultations-p3 {
+  font-size: 20px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.consultations-img-1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.consultations-img-2 {
+  width: 500px;
+  height: 330px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.consultations-1 {
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.consultations-2 {
+  padding: 0px 0px 0px 30px;
+}
+
+.consultations-btn {
+  color: #658161;
+
+  border: 1px solid #658161;
+  border-radius: 10px;
+  padding: 20px 50px 20px 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* SECTION 12 */
+.s-12 {
+  background-color: rgb(230, 226, 226);
+  /* margin-bottom: 100px; */
+  padding-bottom: 10px;
+}
+
+.description-flex {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  gap: 30px;
+  width: 70%;
+}
+.description-cards {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+.description-cards {
+  /* padding: 60px; */
+}
+
+.description-card-num {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(223, 219, 219);
+  color: #658161;
+  border-radius: 50%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  width: 50px;
+  align-items: center;
+  justify-self: center;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.description-head {
+  justify-self: center;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+
+  padding-top: 60px;
+}
+.description-txt {
+  justify-self: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+.description-card-num-head {
+  font-size: 22px;
+  padding: 0px 10px 0px 10px;
+  /* font-weight: 600; */
+}
+.description-card-num-txt {
+  font-size: 16px;
+  font-style: italic;
+  padding: 10px 20px 10px 20px;
+}
+
+.description-card-btn {
+  border: 2px solid #e1e9df;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  padding: 5px 40px 5px 40px;
+  font-weight: 200;
+  color: #658161;
+}
+
+/* SECTION 13 */
+
+.subscription-flex{
+  background: linear-gradient(rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)),
+    url(./photos/flat-lay-tasty-fresh-salad-with-copy-space4-min.jpg);
+
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Makes the image fill the screen */
+  background-position: center; /* Keeps it centered */
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 300px;
+
+  /* gap: 20px; */
+
+  
+
+}
+
+.subscription-letter{
+  padding: 71px 50px 72px 30px;
+
+}
+
+.sub-text-header{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+
+
+}
+
+.sub-text{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.subscription-backround-color{
+  background-color: white;
+}
+
+.sub-input-card{
+  display: flex;
+  flex-direction:row;
+  padding: 80px 20px 80px 20px;
+  gap: 20px;
+
+}
+
+.sub-input-text{
+  font-family: "Montserrat", sans-serif;
+ margin-top: 40px;
+   
+}
+  
+
+ 
+
+
+.sub-input{
+  border: 0px  solid ;
+  border-bottom: 1px solid rgb(10, 10, 10);
+  width: 400px;
+  font-size: 15px;
+  padding-left:20px;
+  padding-top: 20px;
+}
+.sub-btn{
+  background-color: #658161;
+  color: white;
+  padding:5px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.compliments-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+/* END OF S13  */
+
+/* SECTION 14 */
+
+.s-14{
+  background-color: #e1e9df;
+  padding-bottom: 100px;
+  position: relative;
+  /* top:800px; */
+  bottom: 300px;
+
+
+
+}
+
+.compliment-header{
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.compliments-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 60%;
+  justify-self: center;
+
+}
+.compliment-card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.compliment-id{
+  display: flex;
+  flex-direction: row;
+  justify-content:center; 
+   background: linear-gradient(rgba(255, 255, 255, 0.822), rgba(252, 254, 255, 0.801)),
+    url(./photos/apostrophe.png);
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    gap: 50px; 
+
+
+
+   
+}
+.compliment-name{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+
+.compliment-img{
+  width: 80px;
+  height: 70px;
+  border-radius:100%;
+  border: 6px solid #658161;
+  object-fit: cover;
+  margin-bottom: 20px;
+
+}
+
+.compliment-txt{
+  font-size: 20px;
+  font-style: italic;
+ padding-left: 60px;
+
+}
+
+/* END OF S14 */
+
+/* SECTION 15 */
+
+.s-15{
+ /* justify-content: center; */
+}
+
+.blog-header{
+  font-size: 50px;
+  /* font-weight: 400; */
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+ 
+}
+
+.blog-flexer{
+    display: flex;
+    flex-direction: column;
+     gap: 10px
+    
+
+}
+
+.blog-img{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.blog-horizontal-flexer{
+  display: flex;
+  flex-direction: row;
+  /* width: 70%; */
+  align-items: center;
+  /* gap: 10px; */
+  /* padding: 0px 300px; */
+
+
+ 
+}
+/* SECTION 15 */
+
+.s-15{
+  /* display:flex; */
+  
+}
+
+.blog-txt{
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 30px;
+ 
+}
+.blog-txt-edit{
+ line-height: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+   /* width:70% ; */
+}
+
+
+.blog-txt-Sub{
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+   width:60% ;
+}
+.blog-btn-up{
+  background-color: #ffffff;
+  color: #658161;
+  font-size: 15px;
+  padding:5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid #658161;
+  margin-bottom: 40px; 
+}
+
+.blog-btn-down {
+  background-color: #ffffff;
+  color: #658161;
+  font-size: 15px;
+  padding:5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid #658161;
+}
+.blog-learn-more-btn {
+  background-color: #658161;
+  color: white;
+  padding:20px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  /* height: 40px; */
+  margin-top: 30px;
+  justify-self: center;
+  margin-left:50%;
+  margin-bottom: 100px;
+  margin-top: 200px;
+
+
+}

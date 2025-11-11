@@ -1,0 +1,225 @@
+*{
+     padding: 0%;
+     margin:  0%;
+      font-family: "Open Sans", sans-serif;
+      box-sizing: border-box;
+      /* outline: solid red 1px; */
+}
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    background-color: white;
+    width: 100%;
+    position:fixed;
+     justify-content: center;
+     border-bottom: 7px solid rgba(111, 112, 11, 0.404);
+
+}
+ .nav_links {
+    margin-top :60px ;
+    /* margin-left: 30px ; */
+
+ }
+
+.logo{
+    width: 150px;
+    margin-left: 40px; 
+    margin-top: 30px;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+gap: 70px;
+
+}
+
+a{
+text-decoration: none;
+border: none;
+ background-color: rgb(249, 249, 250);
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+
+a:hover{
+    box-shadow: 6px 3px 6px 3px rgb(226, 225, 225);
+}
+
+.profile_image{
+    /* width: 100px; */
+     margin-top :60px ;
+     /* margin-right : 200px ; */
+    background-color: rgb(224, 223, 223);
+    border: 1 solid black;
+    padding: 20px 9px 20px 9px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+
+.container {
+    width: 100%;
+    justify-self: center;
+}
+header{
+    font-style: italic;
+    font-size: 70px;
+    justify-self: center;
+    text-transform: capitalize;
+    font-family:monospace;
+    height: 50%;font-weight: 600;
+    
+   
+    
+}
+.heroe{
+    background: url(./project-photos/ash-bgc.jpeg) ;
+    object-fit: contain ;
+    width: 100%;
+    background-repeat: no-repeat; 
+    height: 300px;
+   
+    
+}
+
+.heroe_header {
+    font-size: 100px;
+    text-transform: capitalize;
+     color: rgb(252, 251, 251);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 20px;
+     font-style: italic;
+     margin-top: px;
+     
+     
+
+}
+/* 
+SUPERSCRIPT AND SUBSCRIPT ON THE HEROE HEADER TEXT */
+sup{
+  font-size: 80px;
+}
+.dreams{
+    font-size: 100px;
+    margin-left: 300px;
+}
+.to{
+    /* color: firebrick; */
+    font-size: 100px;
+    margin-left: 800px;
+
+}
+
+.bringing {
+    font-size: 100px;
+    color:rgb(224, 223, 223); ;
+}
+ 
+.reality {
+    font-size: 100px;
+}
+.opensans {
+    font-family: 'open-sans' sans-serif ;
+}
+
+.heroe_image{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url(./project-photos/eye\ prple\ flower.jpg) ;
+    width: 100%;
+    height:600px;
+    background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+}
+
+.heroe_card {
+ justify-self: right;
+}
+
+.reg_button{
+    font-size: 100px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-right:20px ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+   
+}
+/* OVERVIEW */
+ .overview{
+    
+    color: rgb(46, 1, 1);
+ }
+
+.overview_header {
+    justify-self:center;
+    padding-top: 40px; 
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+.ov_head_text {
+     font-size: 60px;
+     text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ov_text {
+    font-style: italic;
+    justify-self: center;
+}
+
+.overview_container{
+   width: 50%;
+   margin-bottom: 400px;
+   margin-left: 200px;
+   padding-top: 100px;
+   /* color: blue; */
+}
+
+.ov_flexhorizontal{
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+}
+.ov_flexverticl{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ov_img_1{
+    width: 800px;
+    height: 300px;
+    border-radius:  100%;
+    border: 7px solid rgba(185, 224, 14, 0.404);
+    object-fit: cover;
+}
+.ov_img{
+    width:700px ;
+    height: 300px;
+    object-fit: cover;
+    border-radius:100% ;
+    border: 7px solid rgba(185, 224, 14, 0.404);
+}
+
+.ov_img_head_text{
+    padding-top: 20px;
+    font-size: 70px;
+    color: rgb(112, 108, 107);
+    margin-bottom: 20px;
+    
+}
+
+.ov_img_text {
+    font-size: 20px;
+    font-style: italic;
+    /* width: 35%; */
+}

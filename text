@@ -1,0 +1,20 @@
+ <div>
+        <img src="./project-photos/bot-Eye.jpeg" alt="">
+        <img src="./project-photos/bot-offerring-hand-shake.jpeg" alt="">
+      </div>
+      <div>
+        <img src="./project-photos/virtual-icons-with-hand.jpeg" alt="">
+        <img src="./project-photos/virtual-icons-with-hand.jpeg" alt="">
+      </div>
+
+      <p class=""> GAGETS</p>
+      <h6>
+        Gadgets of the Future
+      </h6>
+      <img src="./project-photos/white_bg.png" alt="" class="white-bg">
+      
+       width: 20px;
+  height: 210px; for blue bg
+    
+   width: 50px;
+  height: 140px; for white

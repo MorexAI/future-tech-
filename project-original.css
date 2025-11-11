@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box;    */
+  /* outline: 1px solid green;  */
+  font-family: "poppins", sans-serif;
+}
+
+.cont{
+  justify-self: center;
+}
+
+body {
+  width: 100%;
+  
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+ /* Remove Bootstrap arrow */
+    .dropdown-toggle::after {
+      display: none !important;
+    }
+
+    /* Make dropdown open on hover */
+    .hover-dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* removes jump effect */
+    }
+
+    /* Optional styling */
+    .dropdown-menu {
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.2s ease;
+    }
+
+    .btn {
+      background: #222;
+      color: #fff;
+      border: none;
+    }
+
+    .btn:hover {
+      background: #444;
+    }
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* NAVIGATION/DROPDOWN */
+.nav {
+  font-size: 30px;
+  /* background-color: rebeccapurple; */
+  justify-content: space-evenly
+  
+}
+
+.logo-text {
+  padding: 30px 600px 0px 0px;
+}
+
+.fa-equals{
+  font-size: 30px;
+  padding: 30px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+/* HEROE SECTION */
+.heroe-container {
+  display: flex;
+  flex-direction: row;
+  
+  height: 700px;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+}
+
+.heroe-img {
+  object-fit: contain;
+  height: 100%;
+}
+.blue-bgc {
+  width: 682px;
+}
+.ash-bgc {
+  width: 450px;
+}
+/* positioning our header */
+.positioned-heroe {
+  border: 8px solid rgb(255, 252, 252);
+  padding: 20px;
+  width: 700px;
+  display: inline-block;
+  justify-self: center;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.heroe-txt {
+  font-size: 75px;
+  font-weight: 500;
+  color: #050505;
+  line-height: 80px;
+}
+
+.heroe-txt-word {
+  font-size: 25px;
+  font-weight: 400;
+  color: #070707;
+}
+
+/* SECTION 2 */
+
+.robotics-automation-container {
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 70%;
+  gap: 0px;
+}
+
+.robotics-automation-content {
+  /* width: 600px;
+  padding: 50px; */
+}
+
+.rpa-img {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.robotics-automation-txt {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(107, 106, 106);
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.rpa-txt-2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-family: "Rubik", sans-serif;
+}
+.rpa-txt-3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.rpa-txt-4-container {
+  width: 100%;
+}
+.rpa-txt-4 {
+  display: inline-block;
+  font-size: 17px;
+  padding: 0px 5% 0px 0px;
+  margin-bottom: 60px;
+}
+.rpa-btn {
+  padding: 15px 40px;
+  background: transparent;
+  border: 1px solid aqua;
+  font-style: italic;
+}
+
+.rpa-img-1 {
+  width: 650px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.rpa-img-2 {
+  width: 650px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.white-bg {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  opacity: 0.7;
+  right: 0;
+}
+
+.blue-bgc-rpa {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  opacity: 0.7;
+  right: 0;
+}
+
+/* ABOUT SECTION */
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  width: 70%;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.abt-1-blue {
+  padding: 50px;
+}
+
+.abt-1 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.abt-h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.abt-p {
+  width: 100%;
+  font-size: 17px;
+  padding-right: 50px;
+}
+
+.i-text {
+  padding-right: 50px;
+}
+
+/* TRANSPORTATION SECTION */
+.transportation {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto 60px;
+}
+
+.tp-img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.tp-content {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tp-h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.tp-p {
+  font-size: 17px;
+}
+
+/* SUV IMAGES */
+.suv-img-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-self: center;
+  width: 70%;
+  margin: 0 auto 60px;
+}
+
+.suv-img {
+  width: 100%;
+  height: 245px;
+  object-fit: cover;
+}
+
+/* JAMES COMMY SECTION */
+.james-commy {
+  background-color: #f7fcfc;
+  height: 450px;
+  clear: both;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.james-commy-box {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.quote-box {
+  padding-top: 80px;
+}
+
+.fa-quote-left {
+  font-size: 50px;
+  margin-left: 50px;
+  color: #17cad0;
+  padding-bottom: 20px;
+}
+
+.quote-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  width: 83%;
+  margin-left: 50px;
+  color: #17cad0;
+}
+
+.quote-name {
+  margin-left: 50px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.bot-house-img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  background-color: #333;
+  min-height: 100px;
+  padding: 40px 0;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
